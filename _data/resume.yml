@@ -1,0 +1,157 @@
+name: Mario Russo
+
+projects:
+ - &camlistore  # MUST match uid for anchor creation
+   uid:         camli
+   title:       Camlistore
+   timeframe:   Jun.2014 to present
+   description: "Camlistore is your personal storage system for life. It encompasses a set of open-source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data. I stumbled across the project while researching ideas for a cloud-based photo organization service. Since that time I’ve been working on improving the user experience and adding new features to the web UI. In order to contribute to other parts of the application I’m currently learning Golang."
+
+   detail:
+    - title:        Technologies
+      description:  "ReactJS, Golang"
+
+ - &onboarding  # MUST match uid for anchor creation
+   uid:         onboarding
+   title:       SaaS User On-boarding 
+   timeframe:   Dec.2014 to Jan.2015
+   description: "As part of an effort to assist with the launch of a new SaaS offering, I developed a framework for evaluating user on-boarding practices to help reduce the friction of attracting and retaining new users. Working draft: https://github.com/dotMR/knowledge-base/blob/master/SaaS-onboarding-evaluation-framework.md"
+
+ - &tuning      # MUST match uid for anchor creation
+   uid:         tuning
+   title:       Web Application Performance Tuning
+   timeframe:   Oct.2013 to Dec.2013
+   description: "As part of a performance tuning effort for an existing customer portal, I was engaged to review the production log data and codebase to take steps to improve page-load time. To ease in the harvesting of application data I created a Python log parsing script to extract and aggregate active data queries and running times. Slow running queries were then optimized where required, but the majority of the work was identifying the common queries and eliminating duplicates per page by implementing a caching layer."
+
+   detail:
+    - title:        Technologies
+      description:  "Java, SQL, Oracle, Memcached, Python"
+
+ - &migration   # MUST match uid for anchor creation
+   uid:         migration
+   title:       Migration to Mandrill and Twilio
+   timeframe:   Jun.2013 to May.2013
+   description: "In response to an increasing user base and planned expansion of personalized user communications, the client realized it would no longer be able to adequately support providing Email and SMS delivery in-house. I was engaged to migrate the application away from a custom JavaMail and SMS implementation to use the cloud-based providers for Email and SMS, MailChimp's Mandrill and Twilio."
+
+   detail:
+    - title:        Technologies
+      description:  "Java, Spring, Mandrill, Twilio"
+
+ - &testing     # MUST match uid for anchor creation
+   uid:         testing
+   title:       Test Suite Strategy, Design and Development
+   timeframe:   Feb.2013 to Dec.2013
+   description: "Working with a client focused on helping employers improve the wellness of their employees, the goal of the project was to update and migrate a large wellness assessment survey onto a more scalable and performant platform. The major risk factor was the faultless migration of complicated business logic onto the new system. I was engaged to design and build a comprehensive regression test suite to validate logic branching decisions, score calculations, and the resulting dynamic content which would be displayed to the end-user. I worked in conjunction with the development team to identify potential errors as the functionality was developed, so that when we received an initial test dataset of ~12,000 survey responses for validation, we were able to match all but 6 test cases, which were later found to be erroneous."
+
+   detail:
+    - title:        Technologies
+      description:  "Java, Junit, Python"
+
+ - &ssbla       # MUST match uid for anchor creation
+   uid:         ssbla
+   title:       Steamboat Springs Backyard Luge Association
+   timeframe:   Oct.2010 to present
+   description: "The SSBLA hosts annual sled racing events. We have developed our own electronic sled race timing system complete with a drag race-inspired 'christmas tree' start light. The system is able to track racer time down the track as well as measure racer speed at the finish line. Current projects include wireless data transmission and persistence to the cloud, RFID racer identification, and even a cable-camera system for improving our on-track footage. Our initial implementation was written up on the MAKE blog!"
+
+   detail:
+    - title:        Technologies
+      description:  "Arduino, Jekyll, Github Pages, Amazon S3, Google App Engine, Twitter, Flickr, RFID, Wireless Communication"
+
+positions:
+ - company:     Self-directed work
+   role:        Product Design and Development
+   location:    Berlin, Germany
+   timeframe:   Jan.2014 to present
+   description:	"In Jan. 2014 I began a 14-month sabbatical from paid professional commitments in order to focus on caring for our new son. During this time I have also been able to direct some energy towards learning new technologies (ReactJS, currently Golang), working on new products and services, and contributing to the development of open source technologies (Camlistore)."
+
+   detail:
+    - title:        Spotlight
+      description:  "As part of an effort to launch a new SaaS offering, I developed a framework for evaluating and designing user on-boarding practices to help reduce the friction of attracting and retaining new users."
+
+   projects: [ *camlistore , *onboarding, *ssbla ]
+
+ - company:     Isobar U.S.
+   role:        Freelance Lead Java Developer
+   location:    Berlin, Germany
+   timeframe:   Feb.2013 to Jan.2014
+   description:	"Supported several customer-facing web applications for a client focused on helping employers improve the wellness of their employees. During this time my primary focuses were performance tuning, caching, test strategy development, and the migration of an existing application to use cloud-based Email and SMS providers."
+
+   detail:
+    - title:        Technologies
+      description:  "Java, Spring, JUnit, Oracle, SQL, JavaScript, Python, Memcached, MailChimp’s Mandrill, and Twilio."
+
+    - title:        Spotlight
+      description:  "One unique project involved migrating a massive wellness assessment survey onto a more scalable, responsive, and performant platform. The major risk factor was replicating the complex business logic and scoring calculations used for the ~350,000 annual participants. I was engaged to design and build a comprehensive regression testing utility to validate the new scoring algorithm. I worked in conjunction with the development team to identify potential errors as the functionality was developed, so that when we received an initial sample data set of ~12,000 survey responses to validate, we were immediately able to match all but 6 results, which were later found to be erroneous."
+
+   projects: [ *tuning , *testing, *migration ]
+
+ - company:     RoundarchIsobar
+   role:        "Technical Lead / Senior Consultant"
+   location:    Chicago & Boston
+   timeframe:   Jun.2007 to Jan.2013
+   description: "Enterprise-level web application design, development, and delivery for clients such as the United States Air Force, Healthways, and Royal Bank of Canada. While my primary role is technical design/development, I have experience across the entire spectrum of project delivery including developing product roadmaps, day-to-day project management, user experience design, and training / mentoring."
+
+   detail:
+    - title:        Technologies
+      description:  "Java, HTML/CSS/JavaScript, Adobe Flex, RIA, Oracle SQL, Spring, Hibernate, JQuery, Amazon S3."
+
+    - title:        Spotlight
+      description:  "I led a team in creating an Adobe Flex Rich Internet dashboard application for the senior leaders of the United States Air Force from initial proof of concept to production. This application aggregated data from several systems to serve as single point of view to assess the overall health of the force. I oversaw it’s initial usage within smaller organizations and helped create the product roadmap to later acceptance at the senior leadership level. In addition to the parent dashboard container, we designed and documented an extendable child interface to allow externally developed ‘widgets’ (componentized functionality) to be incorporated into the application."
+
+ - company:     Artisan's Asylum
+   role:        "Instructor: Metal Shop Basics"
+   location:    Somerville, MA
+   timeframe:   Jan.2011 to Jun.2011
+   description: "Introduce participants to basic metalworking techniques and instruct on the proper (safe) usage of basic shop tools including: anvil, hand tools, saws, shears, grinders, and drill presses."
+
+ - company:     Artisan's Asylum
+   role:        "Volunteer Craft Area Lead: Metal Fabrication Shop"
+   location:    Somerville, MA
+   timeframe:   Jan.2011 to May.2011
+   description: "Implemented basic shop usage and safety policies, monitored and ordered consumables, and performed machinery upkeep and maintenance."
+
+ - company:     Andrew T. Crawford Ironworks
+   role:        Craftsman and Fabricator
+   location:    Atlanta, GA
+   timeframe:   Sep.2003 to Jun.2007
+   description: "Created architectural and ornamental ironwork, custom furniture, and sculpture in various mediums (steel, bronze, wood, and stone) using a variety of techniques such as traditional blacksmithing, shaping, modern welding / fabrication, and water jet cutting. I supervised operation of the water-jet-cutting service. Normal responsibilities included CAD, job scheduling, supply ordering, and machine operation and maintenance."
+
+   detail:
+    - title:        Technologies
+      description:  "TODO (types of welding, cutting)"
+
+    - title:        Spotlight
+      description:  "Utilizing my technological background I was able to increase shop productivity and decrease production time on many jobs by integrating computer- based tools into traditional craft techniques and practices."
+
+ - company:     American Renewable Technologies
+   role:        Designer and Fabricator
+   location:    Atlanta, GA
+   timeframe:   Jun.2005 to Jan.2007
+   description: "Created vegetable oil fuel systems and performed conversion of stock diesel vehicles into dual-fuel vehicles running on diesel / biodiesel and waste vegetable oil."
+
+   detail:
+    - title:        Spotlight
+      description:  "Assisted a small business client in design and construction of a waste vegetable oil collection and filtration system used to fuel their delivery vehicles."
+
+ - company:     Roundarch (launched from Deloitte Consulting)
+   role:        Consultant 
+   location:    Atlanta, GA
+   timeframe:   Feb.2001 to Sep.2003
+   description: "I was Roundarch’s first college hire and quickly transitioned from a project apprentice to being the primary maintenance and support developer for a major telecom web-portal client. Later I joined a project team tasked with diagnosing and addressing critical portal performance issues with a website redesign effort with Agilent Technologies."
+
+   detail:
+    - title:        Spotlight
+      description:  "Developed a prototype portal product directed at streamlining the booking and background check process for law enforcement agencies and demonstrated this portal at several industry conventions."
+
+education:
+ - school:      Georgia Institute of Technology
+   program:     Bachelor of Science, Computer Engineering
+   location:    Atlanta, GA
+   timeframe:   Aug.1996 to Dec.2000
+   description: "Senior Concentration: Design with microcontrollers and embedded systems."
+
+ - school:      Harvard University, Graduate School of Design
+   program:     Career Discovery Program
+   location:    Cambridge, MA
+   timeframe:   Summer 2006
+   description: "I took a 3 month sabbatical to formally explore design in relation to architecture and urban planning in an intensive studio-based environment."

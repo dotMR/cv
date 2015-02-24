@@ -15,7 +15,11 @@ projects:
    uid:         onboarding
    title:       SaaS User On-boarding 
    timeframe:   Dec.2014 to Jan.2015
-   description: "As part of an effort to assist with the launch of a new SaaS offering, I developed a framework for evaluating user on-boarding practices to help reduce the friction of attracting and retaining new users. Working draft: https://github.com/dotMR/knowledge-base/blob/master/SaaS-onboarding-evaluation-framework.md"
+   description: "To assist with the launch of a new SaaS offering, I developed a framework for evaluating user on-boarding practices to help reduce the friction of attracting and retaining new users."
+
+   detail:
+    - title:        Working draft
+      description:  "https://github.com/dotMR/knowledge-base/blob/master/SaaS-onboarding-evaluation-framework.md"
 
  - &tuning      # MUST match uid for anchor creation
    uid:         tuning
@@ -64,14 +68,10 @@ positions:
    timeframe:   Jan.2014 to present
    description:	"Developing new product and service offerings, learning new technologies (ReactJS and Golang), and contributing to the development of open source projects (Camlistore)."
 
-   detail:
-    - title:        Spotlight
-      description:  "As part of an effort to launch a new SaaS offering, I developed a framework for evaluating and designing user on-boarding practices to help reduce the friction of attracting and retaining new users."
-
-   projects: [ *camlistore , *onboarding, *ssbla ]
+   projects: [ *camlistore , *onboarding ]
 
  - company:     Isobar U.S.
-   role:        Freelance Lead Java Developer
+   role:        Lead Java Developer
    location:    Berlin, Germany
    timeframe:   Feb.2013 to Jan.2014
    description:	"Supported customer-facing web applications for a client focused on helping employers improve the wellness of their employees. I focused on performance tuning at the database layer, implementation of a caching layer, test strategy development, and the migration of an existing application to use cloud-based Email and SMS providers."
@@ -81,7 +81,7 @@ positions:
       description:  "Java, Spring, JUnit, Oracle, SQL, JavaScript, Python, Memcached, MailChimp’s Mandrill, and Twilio."
 
     - title:        Spotlight
-      description:  "One unique project involved migrating a massive wellness assessment survey onto a more scalable, responsive, and performant platform. The major risk factor was replicating the complex business logic and scoring calculations used for the ~350,000 annual participants. I was engaged to design and build a comprehensive regression testing utility to validate the new scoring algorithm. I worked in conjunction with the development team to identify potential errors as the functionality was developed, so that when we received an initial sample data set of ~12,000 survey responses to validate, we were immediately able to match all but 6 results, which were later found to be erroneous."
+      description:  "One unique project involved migrating a massive wellness assessment survey onto a more scalable and responsive platform. The major risk factor was replicating the complex business logic and scoring calculations used for the ~350,000 annual participants. I was engaged to design and build a comprehensive regression testing utility to validate the new scoring algorithm. I worked in conjunction with the development team to identify potential errors as the functionality was developed, so that when we received an initial sample data set of ~12,000 survey responses to validate, we were immediately able to match all but 6 results, which were later found to be erroneous."
 
    projects: [ *tuning , *testing, *migration ]
 

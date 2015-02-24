@@ -5,7 +5,7 @@ projects:
    uid:         camli
    title:       Camlistore
    timeframe:   Jun.2014 to present
-   description: "Camlistore is your personal storage system for life. It encompasses a set of open-source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data. I stumbled across the project while researching ideas for a cloud-based photo organization service. Since that time I’ve been working on improving the user experience and adding new features to the web UI. In order to contribute to other parts of the application I’m currently learning Golang."
+   description: "Camlistore is your personal storage system for life. It provides a set of open-source formats, protocols, and software for modeling, storing, searching, sharing and synchronizing data. I stumbled across the project while researching ideas for a cloud-based photo organization service. Since that time I’ve been working on improving the user experience and adding new features to the web UI. In order to contribute to the back-end of the application I am currently learning Go."
 
    detail:
     - title:        Technologies
@@ -62,7 +62,7 @@ positions:
    role:        Product Design and Development
    location:    Berlin, Germany
    timeframe:   Jan.2014 to present
-   description:	"In Jan. 2014 I began a 14-month sabbatical from paid professional commitments in order to focus on caring for our new son. During this time I have also been able to direct some energy towards learning new technologies (ReactJS, currently Golang), working on new products and services, and contributing to the development of open source technologies (Camlistore)."
+   description:	"Developing new product and service offerings, learning new technologies (ReactJS and Golang), and contributing to the development of open source projects (Camlistore)."
 
    detail:
     - title:        Spotlight
@@ -74,7 +74,7 @@ positions:
    role:        Freelance Lead Java Developer
    location:    Berlin, Germany
    timeframe:   Feb.2013 to Jan.2014
-   description:	"Supported several customer-facing web applications for a client focused on helping employers improve the wellness of their employees. During this time my primary focuses were performance tuning, caching, test strategy development, and the migration of an existing application to use cloud-based Email and SMS providers."
+   description:	"Supported customer-facing web applications for a client focused on helping employers improve the wellness of their employees. I focused on performance tuning at the database layer, implementation of a caching layer, test strategy development, and the migration of an existing application to use cloud-based Email and SMS providers."
 
    detail:
     - title:        Technologies
@@ -89,7 +89,7 @@ positions:
    role:        "Technical Lead / Senior Consultant"
    location:    Chicago & Boston
    timeframe:   Jun.2007 to Jan.2013
-   description: "Enterprise-level web application design, development, and delivery for clients such as the United States Air Force, Healthways, and Royal Bank of Canada. While my primary role is technical design/development, I have experience across the entire spectrum of project delivery including developing product roadmaps, day-to-day project management, user experience design, and training / mentoring."
+   description: "Enterprise-level web application design, development, and delivery for clients such as the United States Air Force, Healthways, and Royal Bank of Canada."
 
    detail:
     - title:        Technologies
@@ -153,5 +153,5 @@ education:
  - school:      Harvard University, Graduate School of Design
    program:     Career Discovery Program
    location:    Cambridge, MA
-   timeframe:   Summer 2006
+   timeframe:   Sum.2006
    description: "I took a 3 month sabbatical to formally explore design in relation to architecture and urban planning in an intensive studio-based environment."

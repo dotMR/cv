@@ -8,6 +8,7 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    padding-top: 17px;
 }
 
 .site-title {
@@ -233,4 +234,15 @@
             font-size: 18px;
         }
     }
+}
+
+.header-block {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: flex-end;
+}
+
+.header-detail {
+    font-size: 13px;
 }

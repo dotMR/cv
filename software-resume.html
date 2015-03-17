@@ -18,7 +18,7 @@ layout: default
 
   <!-- spacer / padding -->
   <tr>
-    <td colspan="4" height="30px"></td>
+    <td colspan="4" height="25px"></td>
   </tr>
 
   <!-- experience section -->
@@ -28,6 +28,8 @@ layout: default
   </tr>
 
   {% for pos in site.data.resume.positions %}
+
+    {% if pos.category == "software" %}
     <!-- company name and timeframe -->
     <tr>
       <td width="{{ site.left-col-width }}"></td>
@@ -74,26 +76,12 @@ layout: default
 
     {% endfor %}
 
-    {% if pos.projects %}
-    <!-- related projects -->
-    <tr>
-      <td width="{{ site.left-col-width }}"></td>
-      <td colspan="3" style="padding-left:5%"><strong>Projects:</strong></td>
-    <tr>
-    {% endif %}
-
-    {% for prj in pos.projects %}
-    <tr>
-      <td width="{{ site.left-col-width }}"></td>
-      <td colspan="3" style="padding-left:10%"><a href="#{{ prj.uid }}"><span>{{ prj.title }}</span></a></td>
-    </tr>
-
-    {% endfor %}
-
     <!-- spacer / padding -->
     <tr>
-      <td colspan="4" height="30px"></td>
+      <td colspan="4" height="25px"></td>
     </tr>
+
+    {% endif %}
 
   {% endfor %}
   <!-- end experience section -->
@@ -101,12 +89,13 @@ layout: default
   <!-- projects section -->
   <!-- section header -->
   <tr>
-    <td colspan="4" align="left">PROJECTS</td>
+    <td colspan="4" align="left">OTHER PROJECTS</td>
   </tr>
 
   {% for prj in site.data.resume.projects %}
     <!-- project name and timeframe -->
 
+    {% if prj.cvOnly == false %}
     <tr>
       <td width="{{ site.left-col-width }}"></td>
       <td colspan="2"><a id="{{ prj.uid }}" {% if prj.link %}href="{{ prj.link}}" target="_blank"{% endif %}><span><strong>{{ prj.title }}</strong></span></a></td>
@@ -130,8 +119,10 @@ layout: default
 
     <!-- spacer / padding -->
     <tr>
-      <td colspan="4" height="30px"></td>
+      <td colspan="4" height="25px"></td>
     </tr>
+
+    {% endif %}
 
   {% endfor %}
   <!-- end projects section -->
@@ -165,7 +156,7 @@ layout: default
 
     <!-- spacer / padding -->
     <tr>
-      <td colspan="4" height="30px"></td>
+      <td colspan="4" height="25px"></td>
     </tr>
 
   {% endfor %}

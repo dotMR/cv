@@ -2,6 +2,7 @@ encoding: UTF-8
 
 # Site settings
 title: "Mario Russo"
+description: "Mario Russo's online C.V. and resume"
 baseurl: "/cv"
 url: ""
 linkedin_username: dotMR

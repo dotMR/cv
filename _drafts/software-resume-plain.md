@@ -1,5 +1,6 @@
 ---
 permalink: /resume/software/plain/
+drafts: true
 ---
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -48,7 +49,7 @@ permalink: /resume/software/plain/
 {% for prj in site.data.resume.projects %}
 {% if prj.cvOnly == false %}
 **{{ prj.title }}**\\
-{% if prj.link %}{{ prj.link}}{% endif %}\\
+{% if prj.link %}{{ prj.link}}\\{% endif %}
 {{ prj.timeframe }}
 
 {{ prj.description }}

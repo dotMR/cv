@@ -1,40 +1,16 @@
-<footer class="site-footer">
+<footer id="footer">
 
-  <div class="wrapper">
+  <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">Github Pages</a></span>
 
-    <div class="footer-col-wrapper">
+  <div>
+    {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">{% include svg-icons/github.html %}</a>{% endif %}
+    {% if site.linkedin_username %}<a href="https://linkedin.com/in/{{ site.linkedin_username }}">{% include svg-icons/linkedin.html %}</a>{% endif %}
+  </div>
 
-      <table style="width:100%" border="0">
-
-          <tr>
-            <td width="{{ site.left-col-width }}">{{ site.title }}</td>
-
-            <td colspan="2" align="middle">
-              <!-- github link -->
-              {% if site.github_username %}
-                <a href="https://github.com/{{ site.github_username }}">
-                  {% include svg-icons/github.html %}
-                </a>
-              {% endif %}
-
-              <!-- linkedin link -->
-              {% if site.linkedin_username %}
-                <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-                  {% include svg-icons/linkedin.html %}
-                </a>
-              {% endif %}
-            </td>
-
-            <td  width="{{ site.right-col-width }}" align="right">
-              last mod: {{ site.time | date_to_string }}
-            </td>
-
-          </tr>
-
-      </table>
-
-    </div>
-
+  <div class="footer-block">
+    <span>{{ site.title }}</span>
+    <span>last mod: {{ site.time | date_to_string }}</span>
   </div>
 
 </footer>
+

@@ -1,9 +1,10 @@
-# my CV
-Online CV as a static site created with jekyll (and GitHub Pages).
+#Goal
+A static site to display current C.V. and resume
 
 ##Notes
 - This is a WIP
-- The cv data is stored in '_data/resume.yml'
+- The data is stored in '_data/resume.yml'
 - rendering logic is in index.html
 
-Enjoy!
+##Thanks
+created with Jekyll and GitHub Pages

@@ -1,14 +1,11 @@
-<header class="site-header">
+<header id="header">
 
-  <div class="wrapper">
+    <span class="site-title">{{ site.title }}</span>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        <div class="header-block">
-        <div class="header-detail">{{ site.data.resume.address }}</div>
-        <div class="header-detail">{{ site.data.resume.email }}</div>
-        <div class="header-detail">{{ site.data.resume.phone }}</div>
+    <div class="header-block">
+      <span class="header-detail">{{ site.data.resume.address }}</span>
+      <span class="header-detail">{{ site.data.resume.email }}</span>
+      <span class="header-detail">{{ site.data.resume.phone }}</span>
     </div>
-
-  </div>
 
 </header>

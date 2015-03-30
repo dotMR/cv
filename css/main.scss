@@ -4,14 +4,13 @@
 @charset "utf-8";
 
 
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   15px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -48,5 +47,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "module",
+        "print"
 ;

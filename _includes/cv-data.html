@@ -1,0 +1,146 @@
+{% if page.projectLinks %}
+<section>
+  <h3>SUMMARY</h3>
+  <section class="m-section-sub">
+    <p>{{ site.data.resume.summary }}</p>
+  </section>
+</section>
+{% endif %}
+
+<section>
+  <h3>EXPERIENCE</h3>
+
+  <!-- positions -->
+  {% for pos in site.data.resume.positions %}
+  <section class="m-section-sub">
+    <header>
+      <h4>{{ pos.company }}</h4>
+      <time>{{ pos.timeframe }}</time>
+      <span class="m-span-contextual-text">{{ pos.role }}</span>
+      <span>{{ pos.location }}</span>
+      {% if pos.technologies %}<span class="m-span-keywords">{{ pos.technologies }}</span>{% endif %}
+    </header>
+
+    {% if pos.description %}
+    <p>{{ pos.description }}</p>
+    {% endif %}
+
+    <!-- bullet points -->
+    {% if pos.highlights %}
+    <section class="m-section-supporting">
+      <ul class="m-section-list">
+        {% for highlight in pos.highlights %}
+          <li>{{ highlight.description}}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <!-- details -->
+    {% if pos.detail %}
+    <section class="m-section-supporting">
+      <dl>
+        {% for detail in pos.detail %}
+          <dt>{{ detail.title }}</dt>
+          <dd>{{ detail.description }}</dd>
+        {% endfor %}
+      </dl>
+    </section>
+    {% endif %}
+
+    <!-- related projects -->
+    {% if page.projectLinks %}
+    {% if pos.projects %}
+      <section class="m-section-supporting">
+        <h5>Project writeup{% if pos.projects.size > 1 %}s{% endif %}</h5>
+        <nav>
+          {% for prj in pos.projects %}
+            <a href="#{{ prj.uid }}">{{ prj.title }}</a>
+          {% endfor %}
+        </nav>
+      </section>
+    {% endif %}
+    {% endif %}
+
+  </section>
+  {% endfor %}
+</section>
+
+
+<section>
+  <h3>PROJECTS</h3>
+
+  <!-- projects -->
+  {% for prj in site.data.resume.projects %}
+  {% assign title = prj.title %}
+  <section id="{{ prj.uid }}" class="m-section-sub">
+    <header>
+      <h4>{% if prj.link %}<a href="{{ prj.link}}" target="_blank">{{ prj.title }}</a>{% else %}{{ prj.title }}{% endif %}</h4>
+      <time>{{ prj.timeframe }}</time>
+      {% if prj.technologies %}<span class="m-span-keywords">{{ prj.technologies }}</span>{% endif %}
+    </header>
+
+    <p>{{ prj.description }}</p>
+
+    <!-- details -->
+    {% if prj.detail %}
+    <section class="m-section-supporting">
+      <dl>
+        {% for detail in prj.detail %}
+          <dt>{{ detail.title }}:</dt>
+          <dd>{{ detail.description }}</dd>
+        {% endfor %}
+      </dl>
+    </section>
+    {% endif %}
+  </section>
+  {% endfor %}
+</section>
+
+<section>
+  <h3>EDUCATION</h3>
+
+  {% for edu in site.data.resume.education %}
+    <section class="m-section-sub">
+      <header>
+        <h4>{{ edu.school }}</h4>
+        <time>{{ edu.timeframe }}</time>
+        <span>{{ edu.program }}</span>
+        <span>{{ edu.location }}</span>
+      </header>
+      <p>{{ edu.description }}</p>
+    </section>
+  {% endfor %}
+</section>
+
+{% if page.projectLinks %}
+<section>
+  <h3>PROJECT WRITEUPS</h3>
+
+  <!-- projects -->
+  {% for prj in site.data.resume.writeups %}
+  {% assign title = prj.title %}
+  <section id="{{ prj.uid }}" class="m-section-sub">
+    <header>
+      <h4>{% if prj.link %}<a href="{{ prj.link}}" target="_blank">{{ prj.title }}</a>{% else %}{{ prj.title }}{% endif %}</h4>
+      <time>{{ prj.timeframe }}</time>
+      {% if prj.technologies %}<span class="m-span-keywords">{{ prj.technologies }}</span>{% endif %}
+    </header>
+
+    <p>{{ prj.description }}</p>
+
+    <!-- details -->
+    {% if prj.detail %}
+    <section class="m-section-supporting">
+      <dl>
+        {% for detail in prj.detail %}
+          <dt>{{ detail.title }}:</dt>
+          <dd>{{ detail.description }}</dd>
+        {% endfor %}
+      </dl>
+    </section>
+    {% endif %}
+  </section>
+  {% endfor %}
+</section>
+{% endif %}

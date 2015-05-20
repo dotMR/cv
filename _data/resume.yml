@@ -3,7 +3,7 @@ address: address
 email: email
 phone: phone
 
-summary: "Mario Russo is a full-stack developer with ten years experience. He has experience across the spectrum of project delivery including technical design and development, project management, user experience design, and product leadership. He has also spent four years in a design studio creating physical products which shaped his perspective on design and approach to problem solving."
+summary: "Mario Russo is a full-stack developer with ten years experience across the spectrum of project delivery including technical design and development, project management, user experience design, and product leadership. He also worked for four years in a design studio creating physical products. The combination of these experiences provide him a unique perspective on design and problem solving."
 
 writeups:
  - &onboarding  # MUST match uid for anchor creation
@@ -48,8 +48,8 @@ projects:
    title:       Camlistore
    link:        "http://www.camlistore.org"
    timeframe:   Jun.2014 to present
-   description: "Camlistore is an open-source project for modeling, storing, searching, sharing, and synchronizing data. Thus far I have contributed to improving the user experience and developing new features for the web UI."
-   technologies: "ReactJS, Go"
+   description: "Camlistore is an open-source project for modeling, storing, searching, sharing, and synchronizing data. Thus far I have contributed to improving the user experience, developing new features, and building a Chrome browser extension for uploading content."
+   technologies: "React, Go"
 
  - &ssbla       # MUST match uid for anchor creation
    uid:         ssbla
@@ -64,10 +64,10 @@ positions:
    location:    Berlin, Germany
    timeframe:   Jan.2014 to present
    highlights:
-    - description: "Developed ReactJS components for the open-source project Camlistore"
+    - description: "Developed React components and a Chrome extension for the open-source project, Camlistore"
     - description: "Audited user experience onboarding practices for a new SaaS offering"
     - description: "Actively designing and prototyping a consumer product for action cameras"
-   technologies: "ReactJS, JavaScript, CSS, Go, Digital fabrication"
+   technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
    projects: [ *camlistore , *onboarding ]
 

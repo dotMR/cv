@@ -51,6 +51,14 @@ projects:
    description: "Camlistore is an open-source project for modeling, storing, searching, sharing, and synchronizing data. Thus far I have contributed to improving the user experience, developing new features, and building a Chrome browser extension for uploading content."
    technologies: "React, Go"
 
+ - &clipper  # MUST match uid for anchor creation
+   uid:         clipper
+   title:       CamliClipper
+   link:        "https://github.com/dotMR/CamliClipper"
+   timeframe:   Apr.2015 to present
+   description: "CamliClipper is a Chrome browser extension I developed for clipping web images and saving them along with additional metadata to your Camlistore server."
+   technologies: "React, JavaScript"
+
  - &ssbla       # MUST match uid for anchor creation
    uid:         ssbla
    title:       Steamboat Springs Backyard Luge Association
@@ -69,7 +77,7 @@ positions:
     - description: "Actively designing and prototyping a consumer product for action cameras"
    technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
-   projects: [ *camlistore , *onboarding ]
+   projects: [ *camlistore , *clipper, *onboarding ]
 
  - company:     Isobar
    role:        Technical Lead

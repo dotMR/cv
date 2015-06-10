@@ -59,6 +59,13 @@ projects:
    description: "CamliClipper is a Chrome browser extension I developed for clipping web images and saving them along with additional metadata to your Camlistore server."
    technologies: "React, JavaScript"
 
+ - &rover  # MUST match uid for anchor creation
+   uid:         rover
+   title:       Rover
+   timeframe:   Feb.2015 to present
+   description: "Rover is a hardware project I started which aims to put perspectives previously available only to professionals into the hands of every action camera user. Rover enables you to capture emotive and immersive footage to better share your life's adventures."
+   technologies: "CAD, digital fabrication"
+
  - &ssbla       # MUST match uid for anchor creation
    uid:         ssbla
    title:       Steamboat Springs Backyard Luge Association
@@ -77,7 +84,7 @@ positions:
     - description: "Actively designing and prototyping a consumer product for action cameras"
    technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
-   projects: [ *camlistore , *clipper, *onboarding ]
+   projects: [ *camlistore , *clipper, *rover, *onboarding ]
 
  - company:     Isobar
    role:        Technical Lead

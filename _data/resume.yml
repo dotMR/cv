@@ -3,7 +3,7 @@ address: address
 email: email
 phone: phone
 
-summary: "Mario Russo is a full-stack developer with ten years experience across the spectrum of project delivery including technical design and development, project management, user experience design, and product leadership. He also worked for four years in a design studio creating physical products. The combination of these experiences provide him a unique perspective on design and problem solving."
+summary: "Mario Russo brings 12 years of experience building digital products and platforms. He focuses on technical architecture and development but has also worked in product leadership, user experience, and project management. Mario has assisted both large and small organizations optimizing technical strategies and bringing platforms to market. He believes in agile development methodologies, open-source software, and is passionate about creating highly functional applications that are also easy to use."
 
 writeups:
  - &apiV2  # MUST match uid for anchor creation

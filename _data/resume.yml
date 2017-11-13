@@ -74,10 +74,22 @@ projects:
    description: "The SSBLA hosts sled racing events. We developed an electronic race timing system complete with drag-race inspired start lights that monitors racer time and speed at the finish. Current projects include cloud data persistence and RFID racer identification. Our initial version was written up on the MAKE blog!"
 
 positions:
+ - company:     labfolder
+   role:        CTO
+   location:    Berlin, Germany
+   timeframe:   July.2015 to present
+   description:  "Building out digital platform for scientific research data."
+   highlights:
+    - description: "Migrated primary SaaS product offering from dedicated hardware to the cloud"
+    - description: "Integrated laboratory devices from 6 different vendors in creating an Internet of Things 'Lab of the Future'"
+    - description: "Standardized all development and deployment environments using virtualization and cloud technologies"
+    - description: "Building out new REST JSON ApiV2 framework"
+   technologies: "Java, MySQL, Spring, REST, JSON, JUnit, ElasticSearch, JavaScript, AWS, Docker, CircleCI, Gradle"
+
  - company:     Self Employed
    role:        Designer / Developer
    location:    Berlin, Germany
-   timeframe:   Jan.2014 to present
+   timeframe:   Jan.2014 to Jun.2015
    highlights:
     - description: "Developed React components and a Chrome extension for the open-source project, Camlistore"
     - description: "Audited user experience onboarding practices for a new SaaS offering"

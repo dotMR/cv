@@ -6,6 +6,14 @@ phone: phone
 summary: "Mario Russo is a full-stack developer with ten years experience across the spectrum of project delivery including technical design and development, project management, user experience design, and product leadership. He also worked for four years in a design studio creating physical products. The combination of these experiences provide him a unique perspective on design and problem solving."
 
 writeups:
+ - &apiV2  # MUST match uid for anchor creation
+   uid:         apiV2
+   title:       labfolder API v2
+   link:        "https://eln.labfolder.com/api/v2/docs/development.html"
+   timeframe:   Jan.2017 to present
+   description: "API v2 is designed and developed following a documentation-first methodology to support both the internal and external consumption and creation of research data."
+   technologies: "Java, REST, JSON, Spring, API Blueprint, Dredd, Gradle"
+
  - &onboarding  # MUST match uid for anchor creation
    uid:         onboarding
    title:       User On-boarding
@@ -43,14 +51,6 @@ writeups:
 
 projects:
 
- - &camlistore  # MUST match uid for anchor creation
-   uid:         camli
-   title:       Camlistore
-   link:        "http://www.camlistore.org"
-   timeframe:   Jun.2014 to present
-   description: "Camlistore is an open-source project for modeling, storing, searching, sharing, and synchronizing data. Thus far I have contributed to improving the user experience, developing new features, and building a Chrome browser extension for uploading content."
-   technologies: "React, Go"
-
  - &clipper  # MUST match uid for anchor creation
    uid:         clipper
    title:       CamliClipper
@@ -85,6 +85,8 @@ positions:
     - description: "Standardized all development and deployment environments using virtualization and cloud technologies"
     - description: "Building out new REST JSON ApiV2 framework"
    technologies: "Java, MySQL, Spring, REST, JSON, JUnit, ElasticSearch, JavaScript, AWS, Docker, CircleCI, Gradle"
+
+   projects: [ *apiV2 ]
 
  - company:     Self Employed
    role:        Designer / Developer

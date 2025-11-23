@@ -75,34 +75,39 @@ projects:
    description: "The SSBLA hosts sled racing events. We developed an electronic race timing system complete with drag-race inspired start lights that monitors racer time and speed at the finish. Current projects include cloud data persistence and RFID racer identification. Our initial version was written up on the MAKE blog!"
 
 positions:
- - company:     labfolder
-   role:        CTO
-   location:    Berlin, Germany
-   timeframe:   July.2015 to present
-   description:  "Building out digital platform for scientific research data."
-   highlights:
-    - description: "Migrated primary SaaS product offering from dedicated hardware to the cloud"
-    - description: "Integrated laboratory devices from 6 different vendors in creating an Internet of Things 'Lab of the Future'"
-    - description: "Standardized all development and deployment environments using virtualization and cloud technologies"
-    - description: "Building out new REST JSON ApiV2 framework"
-   technologies: "Java, MySQL, Spring, REST, JSON, JUnit, ElasticSearch, JavaScript, AWS, Docker, CircleCI, Gradle"
 
-   projects: [ *apiV2 ]
+ - company:     labforward GmbH
+   role:        CTO / CISO
+   location:    Berlin, Germany
+   timeframe:   Jul.2015 to present
+   description:  "Executive Technical Leadership, Strategy, Team Development, Operations Management, Information Security"
+   highlights:
+    - description: "Implemented collaborative software development, testing, and continuous-integration best practices"
+    - description: "Migrated from a monolithic app running on a shared bare-metal server to a containerized platform of applications running in scalable cloud-hosted environments"
+    - description: "Additionally oversaw development, roll-out, and support of on-premises software deployments which grew to support over 70 customers"
+    - description: "Successfully scaled the engineering organization from 3 to more than 45 FTEs while improving team culture"
+    - description: "Roll-out of a transparent career development and salary framework for all employees in the organization"
+    - description: "Enjoyed a period of nearly 2 years where not a single engineer left the organization"
+    - description: "Several engineers progressed from junior level to assuming team leadership roles over their 5+ year tenure with the organization"
+    - description: "Due diligence, merger activity planning, and team/infrastructure/process merging for 2 successful mergers"    
+    - description: "Achieved regulatory certifications ensuring compliance with industry best-practices (ISO 9001, ISO 27001) ensuring compliance with best practices for operational excellence and information security."
+    - description: "Labfolder annual revenue grew from less than 20K EUR when I joined to the multi-million $ level when it was sold in 2025"
+   technologies: "Java, MySQL, Spring, REST, JSON, JUnit, ElasticSearch, JavaScript, AWS, Docker, CircleCI, Gradle, Replicated"
 
  - company:     Self Employed
-   role:        Designer / Developer
+   role:        "Product development, Open Source Software Development, UX Consulting"
    location:    Berlin, Germany
-   timeframe:   Jan.2014 to Jun.2015
+   timeframe:   Jan.2014 to Jul.2015
    highlights:
-    - description: "Developed React components and a Chrome extension for the open-source project, Camlistore"
-    - description: "Audited user experience onboarding practices for a new SaaS offering"
-    - description: "Actively designing and prototyping a consumer product for action cameras"
+    - description: "Designed and developed a prototype for a consumer action camera accessory"
+    - description: "Improved User Experience (UX) onboarding for a new SaaS offering"
+    - description: "Developed React components and a Chrome extension for the open-source project, Camlistore (now Perkeep)" 
    technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
    projects: [ *camlistore , *clipper, *rover, *onboarding ]
 
  - company:     Isobar
-   role:        Technical Lead
+   role:        Senior Consultant / Technical Lead
    location:    Berlin, Germany
    timeframe:   Feb.2013 to Jan.2014
    description:  "Supported customer-facing web applications for a health and wellness client."

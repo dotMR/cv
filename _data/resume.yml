@@ -80,18 +80,18 @@ positions:
    role:        CTO / CISO
    location:    Berlin, Germany
    timeframe:   Jul.2015 to present
-   description:  "Executive Technical Leadership, Strategy, Team Development, Operations Management, Information Security"
+   description:  "Executive Leadership, Technical Strategy, Team Development, Operations Management, Information Security"
    highlights:
     - description: "Implemented collaborative software development, testing, and continuous-integration best practices"
-    - description: "Migrated from a monolithic app running on a shared bare-metal server to a containerized platform of applications running in scalable cloud-hosted environments"
-    - description: "Additionally oversaw development, roll-out, and support of on-premises software deployments which grew to support over 70 customers"
+    - description: "Migrated a monolithic app running on a shared bare-metal server to a containerized suite of applications running in scalable public and private cloud-hosted environments"
+    - description: "Oversaw implementation of an on-premises software distribution platform which grew to over 70 customers"
     - description: "Successfully scaled the engineering organization from 3 to more than 45 FTEs while improving team culture"
-    - description: "Roll-out of a transparent career development and salary framework for all employees in the organization"
     - description: "Enjoyed a period of nearly 2 years where not a single engineer left the organization"
-    - description: "Several engineers progressed from junior level to assuming team leadership roles over their 5+ year tenure with the organization"
-    - description: "Due diligence, merger activity planning, and team/infrastructure/process merging for 2 successful mergers"    
-    - description: "Achieved regulatory certifications ensuring compliance with industry best-practices (ISO 9001, ISO 27001) ensuring compliance with best practices for operational excellence and information security."
-    - description: "Labfolder annual revenue grew from less than 20K EUR when I joined to the multi-million $ level when it was sold in 2025"
+    - description: "Several engineers progressed from junior level to assuming team leadership roles over their 5+ year tenure"
+    - description: "Roll-out of a transparent career development and salary framework for all employees"
+    - description: "Conducted due diligence, activity planning, and team/infrastructure/process merging for 2 successful mergers"
+    - description: "Achieved regulatory certifications for ISO 9001 and ISO 27001 ensuring compliance with industry best-practices in quality and information security management"
+    - description: "Annual revenue grew from less than 20K EUR when I joined to the multiple million $ level"
    technologies: "Java, MySQL, Spring, REST, JSON, JUnit, ElasticSearch, JavaScript, AWS, Docker, CircleCI, Gradle, Replicated"
 
  - company:     Self Employed
@@ -100,19 +100,19 @@ positions:
    timeframe:   Jan.2014 to Jul.2015
    highlights:
     - description: "Designed and developed a prototype for a consumer action camera accessory"
-    - description: "Improved User Experience (UX) onboarding for a new SaaS offering"
     - description: "Developed React components and a Chrome extension for the open-source project, Camlistore (now Perkeep)" 
+    - description: "Improved User Experience (UX) onboarding for a new SaaS offering"
    technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
    projects: [ *camlistore , *clipper, *rover, *onboarding ]
 
  - company:     Isobar
-   role:        Senior Consultant / Technical Lead
+   role:        "Senior Consultant / Technical Lead"
    location:    Berlin, Germany
    timeframe:   Feb.2013 to Jan.2014
-   description:  "Supported customer-facing web applications for a health and wellness client."
+   description:  "Testing and Performance improvemnts for a leading health and wellness client"
    highlights:
-    - description: "Developed test strategy to validate a significant algorithmic change to survey scoring. Initial data validation resulted in ~99.5% success rate"
+    - description: "Successfully developed testing strategy to validate a significant survey scoring change that resulted in an initial validation success rate of 99.5%"
     - description: "Migrated user notification system to Mandrill (Email) and Twilio (SMS)"
     - description: "Analyzed and improved data access performance via query optimization and the addition of caching"
    technologies: "Java, SQL, Spring, JUnit, Memcached, JavaScript, CSS, Python"
@@ -120,14 +120,14 @@ positions:
    projects: [ *tuning , *testing, *migration ]
 
  - company:     RoundarchIsobar
-   role:        "Senior Consultant"
+   role:        "Senior Consultant / Technical Lead"
    location:    Chicago & Boston
    timeframe:   Jun.2007 to Jan.2013
-   description: "Enterprise-class web application design, development, and support."
+   description: "Enterprise web application design, development, and support"
    highlights:
-    - description: "Led a team creating a Flex dashboard application from prototype to production"
-    - description: "Developed and documented an extensible component interface which allowed for externally developed 'widgets' to operate within a parent Flex dashboard application"
-    - description: "Incrementally migrated the U.S. Air Force's primary web portal from BroadVision to a modern application using open-source frameworks resulting in annual savings of over $1M and a 30% hardware reduction"
+    - description: "Led a team from prototype to production creating an executive status dashboard for the U.S. Air Force Senior Leadership"
+    - description: "Incrementally migrated the U.S. Air Force's primary web portal from a propietary solution to a modern application using open-source frameworks resulting in annual savings of over $1M and a 30% hardware reduction"
+    # - description: "Developed and documented an extensible component interface which allowed for externally developed 'widgets' to operate within a parent Flex dashboard application"
     # - description: "Developed a dashboard application for interacting with date warehouses and monitoring and reporting data quality to support decision making"
    technologies: "Java, SQL, Adobe Flex, Spring, Hibernate, jQuery, JavaScript"
 
@@ -137,7 +137,7 @@ positions:
    role:        "Volunteer Craft Area Lead and Instructor of Metal Fabrication"
    location:    Somerville, MA
    timeframe:   Jan.2011 to Jun.2011
-   description: "Artisan's Asylum is a non-profit community craft studio and manufacturing facility."
+   description: "Artisan's Asylum is a non-profit community craft studio and manufacturing facility"
    highlights:
     - description: "Taught a monthly course covering metalworking techniques and shop safety"
     - description: "Implemented shop usage and safety policies and performed machinery maintenance"
@@ -147,7 +147,7 @@ positions:
    role:        Craftsman
    location:    Atlanta, GA
    timeframe:   Sep.2003 to Jun.2007
-   description: "The Ironworks is a fabrication and design studio specializing in sculpture and blacksmithing."
+   description: "The Ironworks is a design and fabrication studio specializing in traditional forged ornamental ironwork and sculpture"
    highlights:
     - description: "Constructed custom ironwork, furniture, and sculpture from metal, wood, and stone"
     - description: "Supervised water-jet-cutting service (B2B) including CAD, scheduling, operation, and maintenance"
@@ -155,8 +155,8 @@ positions:
  - company:     American Renewable Technologies
    role:        Assistant
    location:    Atlanta, GA
-   timeframe:   Jun.2005 to June.2006
-   description: "Focused on increasing the adoption of alternate fuels and transportation methods in the Atlanta area."
+   timeframe:   Jun.2005 to Jun.2006
+   description: "Focused on increasing the adoption of alternate fuels and transportation methods in the Atlanta area"
    highlights:
     # - description: "Facilitated several small business clients using bio-diesel in their company vehicles"
     - description: "Constructed a waste vegetable oil collection and filtration system"
@@ -166,21 +166,21 @@ positions:
    role:        Consultant 
    location:    Atlanta, GA
    timeframe:   Feb.2001 to Sep.2003
-   description: "Roundarch was founded by Deloitte Consulting specializing in user-centric web development."
+   description: "Roundarch was founded by Deloitte Consulting specializing in user-centric web development"
    highlights:
     - description: "Transitioned from apprentice to primary support developer on my first project"
     # - description: "Resolved page performance issues as part of a redesign effort with Agilent Technologies"
-    - description: "Developed a prototype law enforcement portal and presented at several industry tradeshows"
+    - description: "Developed a prototype law enforcement portal and presented at industry tradeshows"
 
 education:
  - school:      Georgia Institute of Technology
    program:     Bachelor of Science, Computer Engineering
    location:    Atlanta, GA
    timeframe:   Aug.1996 to Dec.2000
-   description: "Senior Concentration: Design with microcontrollers and embedded systems."
+   description: "Senior Concentration: Design with microcontrollers and embedded systems"
 
  - school:      Harvard University, Graduate School of Design
-   program:     Career Discovery Program
+   program:     Career Discovery Program - Architecture
    location:    Cambridge, MA
    timeframe:   Sum.2006
-   description: "Three month sabbatical to formally explore design in an intensive studio environment."
+   description: "Three month sabbatical to formally explore design in an intensive studio environment"

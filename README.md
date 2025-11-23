@@ -1,10 +1,9 @@
-#Goal
+# Goal
 A static site to display current C.V. and resume
 
-##Notes
-- This is a WIP
+## Notes
 - The data is stored in '_data/resume.yml'
 - rendering logic is in '_includes/cv-data.html'
 
-##Thanks
+## Thanks
 created with Jekyll and GitHub Pages

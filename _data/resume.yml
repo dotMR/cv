@@ -110,7 +110,7 @@ positions:
    role:        "Senior Consultant / Technical Lead"
    location:    Berlin, Germany
    timeframe:   Feb.2013 to Jan.2014
-   description:  "Testing and Performance improvemnts for a leading health and wellness client"
+   description:  "Testing and performance improvements for a leading health and wellness client"
    highlights:
     - description: "Designed testing strategy to validate a significant survey scoring change that resulted in an initial validation success rate of 99.5%"
     # - description: "Migrated user notification system to Mandrill (Email) and Twilio (SMS)"

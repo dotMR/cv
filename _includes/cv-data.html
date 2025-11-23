@@ -20,7 +20,7 @@
       <time>{{ pos.timeframe }}</time>
       <span class="m-span-contextual-text">{{ pos.role }}</span>
       <span>{{ pos.location }}</span>
-      {% if pos.technologies %}<span class="m-span-keywords">{{ pos.technologies }}</span>{% endif %}
+      {% if page.technologies && pos.technologies %}<span class="m-span-keywords">{{ pos.technologies }}</span>{% endif %}
     </header>
 
     {% if pos.description %}

@@ -4,7 +4,7 @@ email: mail(dot)mr(at)gmail(dot)com
 
 blurb:
   - paragraph: "Mario Russo is a pragmatic problem solver and people-first leader with over 20 years experience growing ideas, teams, products and platforms. He has worked with startups as well as enterprise customers in fields such as federal government, defense, public health and wellness, finance, criminal justice, and most recently supporting scientific research."
-  - paragraph: "Mario brings with him the experience gained in many roles include day-to-day operations management, information security leadership, infrastructure management, technical architecture, software engineering, human resources, and work in the creative arts."
+  - paragraph: "Mario brings with him experience gained in many roles include day-to-day operations management, project management, information security leadership, infrastructure management, technical architecture, user experience design, software engineering, human resources, and work in the creative arts."
 
 writeups:
  - &apiV2  # MUST match uid for anchor creation
@@ -89,7 +89,7 @@ positions:
     - description: "Enjoyed a period of nearly 2 years where not a single engineer left the organization"
     - description: "Several engineers progressed from junior level to assuming team leadership roles over their 5+ year tenure"
     - description: "Roll-out of a transparent career development and salary framework for all employees"
-    - description: "Conducted due diligence, activity planning, and team/infrastructure/process merging for 2 successful mergers"
+    - description: "Due diligence, acquisition planning, and team/infrastructure/process integration for 2 successful mergers"
     - description: "Achieved regulatory certifications for ISO 9001 and ISO 27001 ensuring compliance with industry best-practices in quality and information security management"
     - description: "Annual revenue grew from less than 20K EUR when I joined to the multiple million $ level"
    technologies: "Java, MySQL, Spring, REST, JSON, JUnit, ElasticSearch, JavaScript, AWS, Docker, CircleCI, Gradle, Replicated"
@@ -99,9 +99,9 @@ positions:
    location:    Berlin, Germany
    timeframe:   Jan.2014 to Jul.2015
    highlights:
-    - description: "Designed and developed a prototype for a consumer action camera accessory"
+    - description: "Iteratively designed and developed prototypes for a consumer action camera accessory"
     - description: "Developed React components and a Chrome extension for the open-source project, Camlistore (now Perkeep)" 
-    - description: "Improved User Experience (UX) onboarding for a new SaaS offering"
+    - description: "Streamlined user on-boarding (UX) for a new SaaS offering"
    technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
    projects: [ *camlistore , *clipper, *rover, *onboarding ]
@@ -112,9 +112,10 @@ positions:
    timeframe:   Feb.2013 to Jan.2014
    description:  "Testing and Performance improvemnts for a leading health and wellness client"
    highlights:
-    - description: "Successfully developed testing strategy to validate a significant survey scoring change that resulted in an initial validation success rate of 99.5%"
-    - description: "Migrated user notification system to Mandrill (Email) and Twilio (SMS)"
-    - description: "Analyzed and improved data access performance via query optimization and the addition of caching"
+    - description: "Designed testing strategy to validate a significant survey scoring change that resulted in an initial validation success rate of 99.5%"
+    # - description: "Migrated user notification system to Mandrill (Email) and Twilio (SMS)"
+    # - description: "Analyzed and improved data access performance via query optimization and the addition of caching"
+    - description: "Improved application data-access performance by over 50%"
    technologies: "Java, SQL, Spring, JUnit, Memcached, JavaScript, CSS, Python"
 
    projects: [ *tuning , *testing, *migration ]

@@ -3,7 +3,9 @@ address: address
 email: email
 phone: phone
 
-summary: "Mario Russo brings 12 years of experience building digital products and platforms. He focuses on technical architecture and development but has also worked in product leadership, user experience, and project management. Mario has assisted both large and small organizations optimizing technical strategies and bringing platforms to market. He believes in agile development methodologies, open-source software, and is passionate about creating highly functional applications that are also easy to use."
+blurb:
+  - paragraph: "Mario Russo is a pragmatic problem solver and people-first leader with over 20 years experience growing ideas, teams, products and platforms. He has worked with startups as well as enterprise customers in fields such as federal government, defense, public health and wellness, finance, criminal justice, and most recently supporting scientific research."
+  - paragraph: "Mario brings with him the experience gained in many roles include day-to-day operations management, information security leadership, infrastructure management, technical architecture, software engineering, human resources, and work in the creative arts."
 
 writeups:
  - &apiV2  # MUST match uid for anchor creation

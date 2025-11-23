@@ -2,7 +2,9 @@
 <section>
   <h3>SUMMARY</h3>
   <section class="m-section-sub">
-    <p>{{ site.data.resume.summary }}</p>
+    {% for blurb in site.data.resume.blurb %}
+      <p>{{ blurb.paragraph }}</p>
+    {% endfor %}
   </section>
 </section>
 {% endif %}

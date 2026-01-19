@@ -3,8 +3,8 @@ address: Berlin, Germany
 email: mail(dot)mr(at)gmail(dot)com
 
 blurb:
-  - paragraph: "Mario Russo is a pragmatic problem solver and people-first leader with over 20 years experience growing ideas, teams, products and platforms. He has worked with startups as well as enterprise customers in fields such as federal government, defense, public health and wellness, finance, criminal justice, and most recently supporting scientific research."
-  - paragraph: "Mario brings with him experience gained in many roles include day-to-day operations management, project management, information security leadership, infrastructure management, technical architecture, user experience design, software engineering, human resources, and work in the creative arts."
+  - paragraph: "Mario Russo is a people-first leader and pragmatic problem solver with over 20 years experience growing ideas, teams, products and platforms. He has worked with startups as well as enterprise customers in fields such as federal government, defense, public health and wellness, finance, and most recently supporting scientific research."
+  - paragraph: "Mario brings with him experience gained in many roles include technical and information security leadership, day-to-day operations management, infrastructure management, project management, technical architecture, user experience design, software engineering, human resources, and work in the creative arts."
 
 writeups:
  - &apiV2  # MUST match uid for anchor creation
@@ -80,10 +80,10 @@ positions:
    role:        CTO / CISO
    location:    Berlin, Germany
    timeframe:   Jul.2015 to present
-   description:  "Executive Leadership, Technical Strategy, Team Development, Operations Management, Information Security"
+   description:  "Executive Leadership, Information Security, Technical Strategy, Team Development, Operations Management"
    highlights:
     - description: "Implemented collaborative software development, testing, and continuous-integration best practices"
-    - description: "Migrated a monolithic app running on a shared bare-metal server to a containerized suite of applications running in scalable public and private cloud-hosted environments"
+    - description: "Migrated a monolithic app running on a shared bare-metal server to a containerized suite of applications running in scalable public and private cloud-hosted environments as well as on-premises"
     - description: "Oversaw implementation of an on-premises software distribution platform which grew to over 70 customers"
     - description: "Successfully scaled the engineering organization from 3 to more than 45 FTEs while improving team culture"
     - description: "Enjoyed a period of nearly 2 years where not a single engineer left the organization"
@@ -101,7 +101,7 @@ positions:
    highlights:
     - description: "Iteratively designed and developed prototypes for a consumer action camera accessory"
     - description: "Developed React components and a Chrome extension for the open-source project, Camlistore (now Perkeep)" 
-    - description: "Streamlined user on-boarding (UX) for a new SaaS offering"
+    - description: "Audited and improved user experience / on-boarding processes for a new SaaS offering"
    technologies: "React, Flux, JavaScript, CSS, Go, Digital fabrication"
 
    projects: [ *camlistore , *clipper, *rover, *onboarding ]
@@ -110,7 +110,7 @@ positions:
    role:        "Senior Consultant / Technical Lead"
    location:    Berlin, Germany
    timeframe:   Feb.2013 to Jan.2014
-   description:  "Testing and performance improvements for a leading health and wellness client"
+   description:  "Testing strategy and performance improvements for a leading health and wellness client"
    highlights:
     - description: "Designed testing strategy to validate a significant survey scoring change that resulted in an initial validation success rate of 99.5%"
     # - description: "Migrated user notification system to Mandrill (Email) and Twilio (SMS)"
